@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Responsive Images</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="header">
+            <picture>
+                <source media="(min-width: 601px)" 
+                srcset="./img/hero-large.jpg">
+                <source srcset="./img/hero-small.jpg">
+                <img src="./img/hero-small.jpg" alt="This is a large tiger waiding in the water.">
+            </picture>
+        </div>
+        
+        <div class="profile">
+            <img src="./img/profile.png" alt="Daniel McFish's profile photo. ">
+
+        </div>
+
+        <div class="profile-name">
+            <p>Daniel McFish</p>
+        </div>
+
+        <div class="photo-container">
+            <div class="cat-1 photo">
+                <img src="./img/cat-1.jpg" alt="Photo of cat.">
+            </div>
+
+            <div class="cat-2 photo">
+                <img src="./img/cat-2.jpg" alt="Photo of cat.">
+            </div>
+
+            <div class="cat-3 photo">
+                <img src="./img/cat-3.jpg" alt="Photo of cat.">
+            </div>
+        </div>
+</body>
+
+</html>
